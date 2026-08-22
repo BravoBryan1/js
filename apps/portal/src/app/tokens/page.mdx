@@ -1,30 +1,3 @@
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { createMetadata, ArticleIconCard } from "@doc";
-import { ExternalLinkIcon } from "lucide-react";
-
-export const metadata = createMetadata({
-	image: { title: "Get Started with thirdweb Solidity SDK", icon: "solidity" },
-	title: "Get Started with thirdweb Solidity SDK",
-	description:
-		"To get started with the Solidity SDK, run the following command to create a new project:",
-});
-
-# Getting Started
-
-Deploy and manage tokens on any EVM compatible blockchain, thirdweb offers:
-
-- Prebuilt audited contracts deployable via dashboard or programmatically.
-- Base implementations to customize and build your own contracts.
-
-<Tabs defaultValue="pre-built">
-
-<TabsList>
-	<TabsTrigger value="pre-built">Pre-built</TabsTrigger>
-	<TabsTrigger value="build-your-own">Build your own</TabsTrigger>
-</TabsList>
-
-<TabsContent value="pre-built">
-
 Create Coins (ERC-20) and NFTs (ERC-721/ERC-1155) on any EVM compatible blockchain directly from the dashboard.
 
 <ArticleIconCard
